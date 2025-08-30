@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Object Data Structure and Array</title>
+    </head>
+    <body>
+        <h1>Object Data Structure</h1>
+        <script>
+            var student={
+                name:'Tinu',
+                age:'15',
+                grade:'10',
+                address:'Manama, Bahrain',
+                hobbies:'drawing and reading',
+            }
+            document.write("My name is " + student.name,"<br>", "Age : " + student.age,"<br>", "Grade : " + student.grade, "<br>", "I live in " + student.address,"<br>","I enjoy " + student.hobbies,"<br>")
+        </script>
+        <h1>Arrays</h1>
+        <script>
+            var colors=["pink","red","magenta","orchid","peacock green"];
+            document.write("The colors I like are " + colors.join(","),"<br>");
+            document.write("My favourite color is " + colors[2],"<br>");
+            colors.pop();
+            document.write("Poping the colors " + colors.join(",") + "<br>"); 
+        </script>
+    </body>
+</html>
