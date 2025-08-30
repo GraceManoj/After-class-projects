@@ -1,0 +1,14 @@
+*{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-transform: none;
+    color:blueviolet
+}
+P{
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 20px;
+    color:darksalmon;
+}
